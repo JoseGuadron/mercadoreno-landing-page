@@ -142,3 +142,11 @@ body{
   .copyright p{
     margin: 0;
   }
+
+  @media  screen and (max-width: 768px) {
+    footer a{
+      font-size: 20px;
+      color: var(--color-fourth);
+      padding: 15px;
+    }
+  }
