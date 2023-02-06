@@ -161,6 +161,13 @@ body{
   .nosotros-ofrecemos, .nosotros-servicios{
     padding: 40px;
   }
+
+  .nosotros-ofrecemos li, .nosotros-servicios li{
+    list-style:url(../img/etiqueta.png);
+    line-height: 40px;
+    padding: 5px;
+  }
+
   .rocket i {
     font-size: 150px;
   }
