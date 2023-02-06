@@ -30,7 +30,7 @@
     /*Filtros de colores*/
 
     --mask-black-dark: rgba(0, 0, 0, 0.7);
-    --mask-black-light: rgba(0, 0, 0, 0.3);
+    --mask-black-light: rgba(0, 0, 0, 0.4);
     --mask-white-dark: rgba(255, 255, 255, 0.8);
     --mask-white-light: rgba(255, 255, 255, 0.3);
 }
@@ -39,6 +39,29 @@ body{
     background-color:#fafafa;
 }
 
+ /*Font sizes*/
+ h1{
+    
+ }
+
+ h2{
+   font-family: var(--text-headline);
+   font-size: 40px;
+ }
+
+ h3{
+   font-size: 30px;
+   font-family: var(--text-subtitle);
+ }
+
+ p, a, li{
+   font-size: 16px;
+   font-family: var(--text-paragraph);
+ }
+
+  .container.start{
+    margin-top:100px;
+  }
 
   /*--------------------------------------------------------------
   # Mercadoreno
@@ -52,8 +75,7 @@ body{
 
   #mercadoreno:before {
     content: "";
-    background: rgb(2,0,36);
-    background: linear-gradient(104deg, rgba(2,0,36,1) 0%, rgba(121,9,86,1) 66%, rgba(0,212,255,1) 100%);
+    background-image: url(../img/base_de_portada.png);
     position: absolute;
     background-attachment: fixed;
     background-size: cover;
@@ -64,7 +86,7 @@ body{
   }
   
   #mercadoreno .mercadoreno-container {
-    background: var(--mask-black-dark);
+    background: var(--mask-black-light);
     height: 100vh;
     display: flex;
     justify-content: center;
