@@ -60,9 +60,6 @@ body{
    line-height: 2;
  }
 
-  .container.start{
-    margin-top:100px;
-  }
 
   /*--------------------------------------------------------------
   # Mercadoreno
@@ -131,6 +128,41 @@ body{
     margin-top: 2%;
     font-size:50px;
     color: var(--color-fourth);
+  }
+
+  .section:before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/divisor.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70px;
+    min-width: 100%;
+    left: 0;
+    
+  }
+  .section-1:before{
+    position: absolute;
+    content: "";
+    background-image: url(../img/divisor2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 70px;
+    min-width: 100%;
+    left: 0;
+    
+  }
+  .section>.contenido, .section-1>.contenido {
+    padding: 110px 0px 40px 0px;
+  }
+
+  .nosotros-ofrecemos, .nosotros-servicios{
+    padding: 40px;
+  }
+  .rocket i {
+    font-size: 150px;
   }
 
   /*--------------------------------------------------------------
