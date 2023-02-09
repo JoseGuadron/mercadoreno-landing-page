@@ -203,6 +203,29 @@ body{
   .card:hover h3{
     color: var(--color-main);
   }
+
+  .curso{
+    padding: 10px;
+    background-color: var(--color-fourth);
+    border-radius: 5px;
+    border: 1px solid #f8fcfa;
+    border-radius: 9px;
+    cursor: pointer;
+    box-shadow: 2px 4px 40px rgb(19 15 235 / 10%);
+    transition: box-shadow 0.4s ease-in-out;
+    height: 100%;
+    margin: 10px 0px;
+  }
+
+  .cursos-disponibles .curso a, .cursos-disponibles .curso i{
+    font-size: 30px;
+    color: var(--color-main);
+    padding: 0px 10px;
+  }
+
+  .cursos-disponibles .curso p{
+    margin: 0;
+  }
   
   /*--------------------------------------------------------------
   # Footer
@@ -307,7 +330,7 @@ body{
   .quienes-somos{
     padding-top:30px
   }
-  
+
   .quienes-somos-img-mobile{
     display: block;
   }
