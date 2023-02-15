@@ -186,6 +186,7 @@ body{
     box-shadow: 2px 4px 40px rgb(19 15 235 / 10%);
     transition: box-shadow 0.4s ease-in-out;
     height: 100%;
+    margin: 10px 0px;
   }
 
   .ofrecemos-list{
